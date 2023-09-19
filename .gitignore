@@ -1,0 +1,13 @@
+/Library
+/Logs
+/Recordings
+/Temp
+/UserSettings
+/Assets/VisualAssets
+/obj
+
+*.vs
+*.vscode
+*.vsconfig
+*.sln
+*.csproj
