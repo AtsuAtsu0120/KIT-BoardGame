@@ -1,0 +1,16 @@
+{
+    "name": "BoradGamePresenter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:96801ac64e98876458e38db9182e376e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

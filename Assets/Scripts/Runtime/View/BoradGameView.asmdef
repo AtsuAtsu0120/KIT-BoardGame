@@ -1,0 +1,16 @@
+{
+    "name": "BoradGameView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:30801f8690d7d7543a564ba0805477dc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
