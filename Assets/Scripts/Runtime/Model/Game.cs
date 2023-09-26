@@ -4,17 +4,23 @@ using System.Collections.Generic;
 public class Game
 {
     #region プロパティ
-    public string guid { get; private set; }
-    public Field field { get; set; } = new();
-    public List<Player> players { get; set; } = new();
-    public Phase phase { get; set; } = new();
+    public string Guid { get; private set; }
+    public Field Field { get; set; } = new();
+    public List<Player> Players { get; set; } = new();
+    public PhaseBase Phase { get; set; } = new InitializationPhase();
     #endregion
 
     #region コンストラクタ
-
     internal Game()
     {
-        guid = Guid.NewGuid().ToString();
+        Guid = System.Guid.NewGuid().ToString();
+    }
+    #endregion
+
+    #region Internalメソッド
+    internal void ChangePhase()
+    {
+
     }
     #endregion
 }

@@ -1,18 +1,15 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class Field : MonoBehaviour
+public class Field
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<EventCard> EventCards { get; set; } = new();
+    public List<SituationCard> SituationCards { get; set; } = new();
 
-    // Update is called once per frame
-    void Update()
+    internal Field()
     {
+        // TODO:EventCardをランダムに20枚決定する。
         
+        // TODO:SituationCardsをランダムに8枚決定する。
+
     }
 }
