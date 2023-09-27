@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoblePhantasm : ScriptableObject
+public abstract class NoblePhantasmCard : BattleCard
 {
 
 }

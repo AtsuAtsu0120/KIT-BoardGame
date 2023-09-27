@@ -22,5 +22,9 @@ public class Game
     {
 
     }
+    internal Player GetPlayerOnTurn()
+    {
+        return new();
+    }
     #endregion
 }
