@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3744037d74f6c454e9a4c9179e9aadb1, type: 3}
   m_Name: AttackCardExample
   m_EditorClassIdentifier: 
-  cardName: 
   defaultPower: 0
   consumedMagic: 0
-  cardAttribute: 
-  enableOnUse: 0
-  enableOnBattle: 0
+  cardAttribute: 00000000
+  enableOnUse: 1
+  enableOnBattle: 1
