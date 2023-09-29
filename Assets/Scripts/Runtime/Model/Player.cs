@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Player : MonoBehaviour
+public class Player
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    #region プロパティ
+    public MasterBorad MasterBorad { get; internal set; }
+    public Servant ServantTurrets { get; internal set; }
+    public int MagicToken { get; internal set; }
+    /// <summary>
+    /// 令呪みたいなやつ
+    /// </summary>
+    public int CommandSpell { get; internal set; }
+    #endregion
 
-    // Update is called once per frame
-    void Update()
+    #region コンストラクタ
+    internal Player()
     {
         
     }
+    #endregion
 }
